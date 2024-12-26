@@ -14,7 +14,7 @@ import {
 
 import { TaskDto } from './task.dto';
 import { TaskService } from './task.service';
-import { AuthGuard } from 'src/auth/auth.guard';
+import { AuthGuard } from '../auth/auth.guard';
 import { ApiBearerAuth } from '@nestjs/swagger';
 
 @ApiBearerAuth()
